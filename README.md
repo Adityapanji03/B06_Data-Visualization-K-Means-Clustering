@@ -6,7 +6,9 @@ Then, you put the dataset to google drive or place to one of your file folder an
 from google.colab import drive
 drive.mount('/content/gdrive')
 
-And change data = pd.read_csv('gdrive/My Drive/Klasifikasi Tingkat Kemiskinan di Indonesia.csv', sep=';') into:
+And change the code:
+data = pd.read_csv('gdrive/My Drive/Klasifikasi Tingkat Kemiskinan di Indonesia.csv', sep=';')
+into:
 data = pd.read_csv('Klasifikasi Tingkat Kemiskinan di Indonesia.csv', sep = ';')
 
 And enjoy for run the program code
